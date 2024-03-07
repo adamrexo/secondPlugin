@@ -1,0 +1,14 @@
+name: secondPlugin
+version: '${project.version}'
+main: eu.rexo.secondplugin.Main
+api-version: '1.20'
+commands:
+  prichody:
+    description: Prichody
+    usage: /prichody
+  odchody:
+    description: Odchody
+    usage: /odchody
+  menu:
+    description: Menu
+    usage: /menu
